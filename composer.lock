@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f46d5aa1f6e3eb6a4c3b17aff50b63fd",
+    "content-hash": "345dc78166108515ba7889dc0aa42760",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.384.9",
+            "version": "3.385.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "71513f9c05ed1fde0fb95e8c7e7d3c88409d7de9"
+                "reference": "1952d9ce58aca5a5d444f74ed1034f7ba9125002"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/71513f9c05ed1fde0fb95e8c7e7d3c88409d7de9",
-                "reference": "71513f9c05ed1fde0fb95e8c7e7d3c88409d7de9",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1952d9ce58aca5a5d444f74ed1034f7ba9125002",
+                "reference": "1952d9ce58aca5a5d444f74ed1034f7ba9125002",
                 "shasum": ""
             },
             "require": {
@@ -153,29 +153,28 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.384.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.385.3"
             },
-            "time": "2026-06-12T18:10:49+00:00"
+            "time": "2026-06-19T18:07:45+00:00"
         },
         {
             "name": "brick/math",
-            "version": "0.14.8",
+            "version": "0.17.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629"
+                "reference": "8189e751995f9e15729c1aa2f89fa8f166ffe818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/63422359a44b7f06cae63c3b429b59e8efcc0629",
-                "reference": "63422359a44b7f06cae63c3b429b59e8efcc0629",
+                "url": "https://api.github.com/repos/brick/math/zipball/8189e751995f9e15729c1aa2f89fa8f166ffe818",
+                "reference": "8189e751995f9e15729c1aa2f89fa8f166ffe818",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
-                "php-coveralls/php-coveralls": "^2.2",
                 "phpstan/phpstan": "2.1.22",
                 "phpunit/phpunit": "^11.5"
             },
@@ -207,7 +206,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.14.8"
+                "source": "https://github.com/brick/math/tree/0.17.2"
             },
             "funding": [
                 {
@@ -215,7 +214,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-10T14:33:43+00:00"
+            "time": "2026-05-25T20:34:43+00:00"
         },
         {
             "name": "brick/varexporter",
@@ -1498,22 +1497,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.11.1",
+            "version": "7.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "5af96f374e0ab4ebd747b8310888c99d3adb0a8c"
+                "reference": "d34627490fbc03bf5c5d7cfed81f2faa19519425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/5af96f374e0ab4ebd747b8310888c99d3adb0a8c",
-                "reference": "5af96f374e0ab4ebd747b8310888c99d3adb0a8c",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d34627490fbc03bf5c5d7cfed81f2faa19519425",
+                "reference": "d34627490fbc03bf5c5d7cfed81f2faa19519425",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^2.5",
-                "guzzlehttp/psr7": "^2.11",
+                "guzzlehttp/psr7": "^2.12.1",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -1526,7 +1525,7 @@
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "ext-curl": "*",
                 "guzzle/client-integration-tests": "3.0.2",
-                "guzzlehttp/test-server": "^0.5",
+                "guzzlehttp/test-server": "^0.5.1",
                 "php-http/message-factory": "^1.1",
                 "phpunit/phpunit": "^8.5.52 || ^9.6.34",
                 "psr/log": "^1.1 || ^2.0 || ^3.0"
@@ -1606,7 +1605,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.11.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.12.1"
             },
             "funding": [
                 {
@@ -1622,7 +1621,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-07T22:54:06+00:00"
+            "time": "2026-06-18T14:12:49+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1710,16 +1709,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.11.0",
+            "version": "2.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "bbb5e61349fa5cb822b3e87842b951088b76b81f"
+                "reference": "172ef2f4e9824c1e058b7f30be8ae25a02c0f2b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/bbb5e61349fa5cb822b3e87842b951088b76b81f",
-                "reference": "bbb5e61349fa5cb822b3e87842b951088b76b81f",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/172ef2f4e9824c1e058b7f30be8ae25a02c0f2b7",
+                "reference": "172ef2f4e9824c1e058b7f30be8ae25a02c0f2b7",
                 "shasum": ""
             },
             "require": {
@@ -1809,7 +1808,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.11.0"
+                "source": "https://github.com/guzzle/psr7/tree/2.12.1"
             },
             "funding": [
                 {
@@ -1825,20 +1824,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-02T12:30:48+00:00"
+            "time": "2026-06-18T09:49:37+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "6.9.0",
+            "version": "6.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jsonrainbow/json-schema.git",
-                "reference": "bd1bda2ebfc8bff418565941771ea8f03c557886"
+                "reference": "8b1308a9d7bdbdb20ce87ef920f82b4564bb2d33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/bd1bda2ebfc8bff418565941771ea8f03c557886",
-                "reference": "bd1bda2ebfc8bff418565941771ea8f03c557886",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/8b1308a9d7bdbdb20ce87ef920f82b4564bb2d33",
+                "reference": "8b1308a9d7bdbdb20ce87ef920f82b4564bb2d33",
                 "shasum": ""
             },
             "require": {
@@ -1848,7 +1847,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "3.3.0",
-                "json-schema/json-schema-test-suite": "^23.2",
+                "json-schema/json-schema-test-suite": "dev-main",
                 "marc-mabe/php-enum-phpstan": "^2.0",
                 "phpspec/prophecy": "^1.19",
                 "phpstan/phpstan": "^1.12",
@@ -1898,9 +1897,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
-                "source": "https://github.com/jsonrainbow/json-schema/tree/6.9.0"
+                "source": "https://github.com/jsonrainbow/json-schema/tree/6.10.0"
             },
-            "time": "2026-06-05T14:05:24+00:00"
+            "time": "2026-06-16T20:50:26+00:00"
         },
         {
             "name": "laminas/laminas-captcha",
@@ -3757,11 +3756,11 @@
         },
         {
             "name": "mage-os/composer",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/composer-3.0.0.zip",
-                "shasum": "890ab32fe8257cc4c64df7fd3e9ead7addee5c84"
+                "url": "https://repo.mage-os.org/packages/mage-os/composer-3.1.0.zip",
+                "shasum": "b77c3b87e44d61fca495cbf0367b67931168546f"
             },
             "require": {
                 "composer/composer": "^2.1.13",
@@ -3794,11 +3793,11 @@
         },
         {
             "name": "mage-os/composer-dependency-version-audit-plugin",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/composer-dependency-version-audit-plugin-3.0.0.zip",
-                "shasum": "498004b125646042339e71372a213aaff9ebd692"
+                "url": "https://repo.mage-os.org/packages/mage-os/composer-dependency-version-audit-plugin-3.1.0.zip",
+                "shasum": "2b27d981ee00ec3989721e5c2e4736e406c70a11"
             },
             "require": {
                 "composer-plugin-api": "^1.0 || ^2.0",
@@ -3831,11 +3830,11 @@
         },
         {
             "name": "mage-os/framework",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/framework-3.0.0.zip",
-                "shasum": "91a7aeb38b10273bf442673398afceac7c96f7f9"
+                "url": "https://repo.mage-os.org/packages/mage-os/framework-3.1.0.zip",
+                "shasum": "8a263dbd44974dcc736f5c99e0791b1d12a47dca"
             },
             "require": {
                 "colinmollenhour/php-redis-session-abstract": "^2.0",
@@ -3863,9 +3862,9 @@
                 "laminas/laminas-uri": "^2.14",
                 "laminas/laminas-validator": "^2.23",
                 "lib-libxml": "*",
-                "mage-os/composer-dependency-version-audit-plugin": "3.0.0",
-                "mage-os/zend-db": "3.0.0",
-                "mage-os/zend-pdf": "3.0.0",
+                "mage-os/composer-dependency-version-audit-plugin": "3.1.0",
+                "mage-os/zend-db": "3.1.0",
+                "mage-os/zend-pdf": "3.1.0",
                 "monolog/monolog": "^3.6",
                 "php": "~8.3.0||~8.4.0||~8.5.0",
                 "psr/log": "^2 || ^3",
@@ -3911,14 +3910,14 @@
         },
         {
             "name": "mage-os/framework-amqp",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/framework-amqp-3.0.0.zip",
-                "shasum": "3b80b27985ecdd93a26a826adbb9c075b66ba4d5"
+                "url": "https://repo.mage-os.org/packages/mage-os/framework-amqp-3.1.0.zip",
+                "shasum": "0101977548c4207ac74cc6d281ea15f3d85143e3"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0",
                 "php-amqplib/php-amqplib": "^3.2"
             },
@@ -3942,14 +3941,14 @@
         },
         {
             "name": "mage-os/framework-bulk",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/framework-bulk-3.0.0.zip",
-                "shasum": "6b4e4ffff6595d833dd26473b9de0f6a1940e388"
+                "url": "https://repo.mage-os.org/packages/mage-os/framework-bulk-3.1.0.zip",
+                "shasum": "5b65eda5e377ef23302348d716680f566a285c7f"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -3972,14 +3971,14 @@
         },
         {
             "name": "mage-os/framework-message-queue",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/framework-message-queue-3.0.0.zip",
-                "shasum": "806672a5858736f85d971e977e853ffb509c5cbc"
+                "url": "https://repo.mage-os.org/packages/mage-os/framework-message-queue-3.1.0.zip",
+                "shasum": "9eb40deab07a9ce4726d634a59c5b9a9446a910f"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4002,11 +4001,11 @@
         },
         {
             "name": "mage-os/magento-composer-installer",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/magento-composer-installer-3.0.0.zip",
-                "shasum": "ba8deacc50f575413e0a9785bf678d5c623a252b"
+                "url": "https://repo.mage-os.org/packages/mage-os/magento-composer-installer-3.1.0.zip",
+                "shasum": "bb2a29149a71f9ab8ca48c56b6bb72ffd09f366b"
             },
             "require": {
                 "composer-plugin-api": "^1.1 || ^2.0",
@@ -4083,11 +4082,11 @@
         },
         {
             "name": "mage-os/magento2-base",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/magento2-base-3.0.0.zip",
-                "shasum": "63fe300274fdf0f1f32a1c2420211c725ee63317"
+                "url": "https://repo.mage-os.org/packages/mage-os/magento2-base-3.1.0.zip",
+                "shasum": "d450f36d31016c765f8536cd1046d34b32cd80c2"
             },
             "require": {
                 "colinmollenhour/credis": "^1.15",
@@ -4103,9 +4102,9 @@
                 "laminas/laminas-stdlib": "^3.11",
                 "laminas/laminas-uri": "^2.14",
                 "laminas/laminas-validator": "^2.23",
-                "mage-os/composer": "3.0.0",
-                "mage-os/zend-cache": "3.0.0",
-                "mage-os/zend-db": "3.0.0",
+                "mage-os/composer": "3.1.0",
+                "mage-os/zend-cache": "3.1.0",
+                "mage-os/zend-db": "3.1.0",
                 "monolog/monolog": "^3.6",
                 "pelago/emogrifier": "^8.1",
                 "php-amqplib/php-amqplib": "^3.2",
@@ -4656,20 +4655,20 @@
         },
         {
             "name": "mage-os/module-admin-notification",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-admin-notification-3.0.0.zip",
-                "shasum": "145c9889a9348cd3d2115267400d14ae294ef433"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-admin-notification-3.1.0.zip",
+                "shasum": "f837a6ceeab9a045415fa2479d860de3975d0826"
             },
             "require": {
                 "lib-libxml": "*",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4692,21 +4691,21 @@
         },
         {
             "name": "mage-os/module-advanced-search",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-advanced-search-3.0.0.zip",
-                "shasum": "300688366fe018ed10e18eddfa3c4635bac83ce3"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-advanced-search-3.1.0.zip",
+                "shasum": "a24e0aeaef132d052bd5a88ea70390850caa8ff7"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-search": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-search": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-search": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-search": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4729,15 +4728,15 @@
         },
         {
             "name": "mage-os/module-async-config",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-async-config-3.0.0.zip",
-                "shasum": "1018ae6eb7c26fc96f39e8e11ed6e03654f39be3"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-async-config-3.1.0.zip",
+                "shasum": "cc9c88c3e81b0096b9139ea4c0eaf03f8ad404ff"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-config": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-config": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4759,27 +4758,27 @@
         },
         {
             "name": "mage-os/module-asynchronous-operations",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-asynchronous-operations-3.0.0.zip",
-                "shasum": "1ea58b14876fb47fd328581e38d0a236edb8764f"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-asynchronous-operations-3.1.0.zip",
+                "shasum": "61b0b4742b272e1b06f5950aa66adfa68d807164"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/framework-message-queue": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/framework-message-queue": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-asynchronous-operations": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-admin-notification": "3.0.0",
-                "mage-os/module-logging": "3.0.0"
+                "mage-os/module-admin-notification": "3.1.0",
+                "mage-os/module-logging": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -4798,15 +4797,15 @@
         },
         {
             "name": "mage-os/module-authorization",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-authorization-3.0.0.zip",
-                "shasum": "b2e37291391ea33b4f2f7b89163fdf72a6d93c4e"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-authorization-3.1.0.zip",
+                "shasum": "1f72103ca11b76fc97519dc229e54cc76927d601"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4829,15 +4828,15 @@
         },
         {
             "name": "mage-os/module-aws-s3",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-aws-s3-3.0.0.zip",
-                "shasum": "25ef56419f0a9f659a4667b6aba99e1bcf3df233"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-aws-s3-3.1.0.zip",
+                "shasum": "f3b76deb8e1fa2dde0b6e3d304678b7a325ee461"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-remote-storage": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-remote-storage": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4859,38 +4858,38 @@
         },
         {
             "name": "mage-os/module-backend",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-backend-3.0.0.zip",
-                "shasum": "4f2561278b3ef03eb3244575ff99f78ffcb61be6"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-backend-3.1.0.zip",
+                "shasum": "205b22a7bb95a5708de01b1e7d09db777a6c5036"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backup": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-developer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-reports": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-security": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-translation": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-user": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backup": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-developer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-reports": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-security": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-translation": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-user": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-backend": "102.0.9"
             },
             "suggest": {
-                "mage-os/module-theme": "3.0.0"
+                "mage-os/module-theme": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -4910,17 +4909,17 @@
         },
         {
             "name": "mage-os/module-backup",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-backup-3.0.0.zip",
-                "shasum": "e639beed5471452aec0fa6cd6735c33d4062509e"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-backup-3.1.0.zip",
+                "shasum": "cd3461a03afc08a092dbba83f21f51121a56f4f3"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-cron": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-cron": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -4943,39 +4942,39 @@
         },
         {
             "name": "mage-os/module-bundle",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-bundle-3.0.0.zip",
-                "shasum": "a60c6a63064d9f02bb26a1e43e409accabbdda9f"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-bundle-3.1.0.zip",
+                "shasum": "890cf4b25966aa398ca59072f06a741eae31fb2f"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-catalog-rule": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-gift-message": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-catalog-rule": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-gift-message": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-bundle": "101.0.9"
             },
             "suggest": {
-                "mage-os/module-bundle-sample-data": "Sample Data version: 3.0.0",
-                "mage-os/module-sales-rule": "3.0.0",
-                "mage-os/module-webapi": "3.0.0"
+                "mage-os/module-bundle-sample-data": "Sample Data version: 3.1.0",
+                "mage-os/module-sales-rule": "3.1.0",
+                "mage-os/module-webapi": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -4994,15 +4993,15 @@
         },
         {
             "name": "mage-os/module-cache-invalidate",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-cache-invalidate-3.0.0.zip",
-                "shasum": "711217a3fd869076d3976091cf580f648f6670aa"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-cache-invalidate-3.1.0.zip",
+                "shasum": "beddd100a7db09b97e205e360d87223dd8f5fea2"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5025,20 +5024,20 @@
         },
         {
             "name": "mage-os/module-captcha",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-captcha-3.0.0.zip",
-                "shasum": "30b10efddeb9c9c16d9ab63a79cabf10c3ceb420"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-captcha-3.1.0.zip",
+                "shasum": "772ba8c95ff22812689dd4e3a736783dd290ad94"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0",
                 "php-db/phpdb": "^0.4"
             },
@@ -5062,50 +5061,50 @@
         },
         {
             "name": "mage-os/module-catalog",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-3.0.0.zip",
-                "shasum": "2d1ed3bd061c565c0f41a0eac94ec10ee5bf14c4"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-3.1.0.zip",
+                "shasum": "3b7a30d0be885f0d71d5fe86616431524ee81413"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-aws-s3": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-catalog-rule": "3.0.0",
-                "mage-os/module-catalog-url-rewrite": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-indexer": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-msrp": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-product-alert": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-url-rewrite": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
-                "mage-os/module-wishlist": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-aws-s3": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-catalog-rule": "3.1.0",
+                "mage-os/module-catalog-url-rewrite": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-indexer": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-msrp": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-product-alert": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-url-rewrite": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
+                "mage-os/module-wishlist": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-catalog": "104.0.9"
             },
             "suggest": {
-                "mage-os/module-catalog-sample-data": "Sample Data version: 3.0.0",
-                "mage-os/module-cookie": "3.0.0",
-                "mage-os/module-sales": "3.0.0"
+                "mage-os/module-catalog-sample-data": "Sample Data version: 3.1.0",
+                "mage-os/module-cookie": "3.1.0",
+                "mage-os/module-sales": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5124,27 +5123,27 @@
         },
         {
             "name": "mage-os/module-catalog-import-export",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-import-export-3.0.0.zip",
-                "shasum": "72648b45952a58eadd682798fa029b244f363bdb"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-import-export-3.1.0.zip",
+                "shasum": "eeceb2891acbe70abd86e7d56d1f751a6ae94b5e"
             },
             "require": {
                 "ext-ctype": "*",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-aws-s3": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-catalog-url-rewrite": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-downloadable": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-import-export": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-aws-s3": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-catalog-url-rewrite": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-downloadable": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-import-export": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5167,21 +5166,21 @@
         },
         {
             "name": "mage-os/module-catalog-inventory",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-inventory-3.0.0.zip",
-                "shasum": "6218418e0c47505be9226f7a9f77e9156d6daf48"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-inventory-3.1.0.zip",
+                "shasum": "a72c06bdf8232e6201e8ea95b9ccaaf07a36b215"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5205,30 +5204,30 @@
         },
         {
             "name": "mage-os/module-catalog-rule",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-rule-3.0.0.zip",
-                "shasum": "4da50df5428733c3daa21a39bc7a29adc24586f5"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-rule-3.1.0.zip",
+                "shasum": "d1dccd81c11134485d3a7d78e196c21c371f70d3"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-rule": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-rule": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-catalog-rule": "101.2.9"
             },
             "suggest": {
-                "mage-os/module-catalog-rule-sample-data": "Sample Data version: 3.0.0",
-                "mage-os/module-import-export": "3.0.0"
+                "mage-os/module-catalog-rule-sample-data": "Sample Data version: 3.1.0",
+                "mage-os/module-import-export": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5247,25 +5246,25 @@
         },
         {
             "name": "mage-os/module-catalog-rule-configurable",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-rule-configurable-3.0.0.zip",
-                "shasum": "ccec8fa98627cfef8a2ce53546eae04c757a77bc"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-rule-configurable-3.1.0.zip",
+                "shasum": "4f21aa9da1c64df22bc7e36093d2f6c8fdc64441"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/magento-composer-installer": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-rule": "3.0.0",
-                "mage-os/module-configurable-product": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/magento-composer-installer": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-rule": "3.1.0",
+                "mage-os/module-configurable-product": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-catalog-rule-configurable": "100.4.8"
             },
             "suggest": {
-                "mage-os/module-catalog-rule": "3.0.0"
+                "mage-os/module-catalog-rule": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5284,32 +5283,32 @@
         },
         {
             "name": "mage-os/module-catalog-search",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-search-3.0.0.zip",
-                "shasum": "601e25131c42fc31060123da2bba146aa2b8c8f0"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-search-3.1.0.zip",
+                "shasum": "60a5de97f36acc58eff453722ed7d496da522053"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-indexer": "3.0.0",
-                "mage-os/module-search": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-indexer": "3.1.0",
+                "mage-os/module-search": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-catalog-search": "102.0.9"
             },
             "suggest": {
-                "mage-os/module-config": "3.0.0"
+                "mage-os/module-config": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5328,31 +5327,31 @@
         },
         {
             "name": "mage-os/module-catalog-url-rewrite",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-url-rewrite-3.0.0.zip",
-                "shasum": "ecb601097432dcf9878748779cb4d08a4e1c54e3"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-catalog-url-rewrite-3.1.0.zip",
+                "shasum": "b32b2ce2551699030f66c2c4fdf9fdc5d22f8158"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-import-export": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-import-export": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-url-rewrite": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-import-export": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-import-export": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-url-rewrite": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-catalog-url-rewrite": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-webapi": "3.0.0"
+                "mage-os/module-webapi": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5371,42 +5370,42 @@
         },
         {
             "name": "mage-os/module-checkout",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-checkout-3.0.0.zip",
-                "shasum": "9f90fe3e3ef25aa8cdf9a179aba6e1234b131142"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-checkout-3.1.0.zip",
+                "shasum": "df8cd4fb4271ab6c3b3049962cd71485e77cab88"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-captcha": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-csp": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-msrp": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-sales-rule": "3.0.0",
-                "mage-os/module-security": "3.0.0",
-                "mage-os/module-shipping": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-captcha": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-csp": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-msrp": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-sales-rule": "3.1.0",
+                "mage-os/module-security": "3.1.0",
+                "mage-os/module-shipping": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-checkout": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-cookie": "3.0.0"
+                "mage-os/module-cookie": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5425,30 +5424,30 @@
         },
         {
             "name": "mage-os/module-cms",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-cms-3.0.0.zip",
-                "shasum": "6fb5893bb9b30cbd9079f925d307fdeb0174f8a5"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-cms-3.1.0.zip",
+                "shasum": "0f51cca6f15efa0a0eed689c15e4b9567b23d47b"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-email": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-variable": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-email": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-variable": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-cms": "104.0.9"
             },
             "suggest": {
-                "mage-os/module-cms-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-cms-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5467,17 +5466,17 @@
         },
         {
             "name": "mage-os/module-cms-url-rewrite",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-cms-url-rewrite-3.0.0.zip",
-                "shasum": "7478058161f66dbb792a7d295b8077d5ab6b4845"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-cms-url-rewrite-3.1.0.zip",
+                "shasum": "103a3938e6342ced8ed729e6029ea1fc5e53badd"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-url-rewrite": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-url-rewrite": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5500,22 +5499,22 @@
         },
         {
             "name": "mage-os/module-config",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-config-3.0.0.zip",
-                "shasum": "8515e304da3981d7b394cf1dc4903a8631dac0c5"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-config-3.1.0.zip",
+                "shasum": "970c0f8762300dd0cc018d0e35623a18730b350b"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-cron": "3.0.0",
-                "mage-os/module-deploy": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-email": "3.0.0",
-                "mage-os/module-encryption-key": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-cron": "3.1.0",
+                "mage-os/module-deploy": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-email": "3.1.0",
+                "mage-os/module-encryption-key": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5538,20 +5537,20 @@
         },
         {
             "name": "mage-os/module-configurable-import-export",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-configurable-import-export-3.0.0.zip",
-                "shasum": "78a57c9b1386740fca58607260d03687959c7ef9"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-configurable-import-export-3.1.0.zip",
+                "shasum": "1c34cb5be3e1122e6684178b2909abdb4c545062"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-import-export": "3.0.0",
-                "mage-os/module-configurable-product": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-import-export": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-import-export": "3.1.0",
+                "mage-os/module-configurable-product": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-import-export": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5574,40 +5573,40 @@
         },
         {
             "name": "mage-os/module-configurable-product",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-configurable-product-3.0.0.zip",
-                "shasum": "7ec9086b9783f1e432808cf77a5d54bb69ce4925"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-configurable-product-3.1.0.zip",
+                "shasum": "3f04c37af05dc86017f2c7904e8e9781175a5118"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-configurable-product": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-catalog-search": "3.0.0",
-                "mage-os/module-catalog-widget": "3.0.0",
-                "mage-os/module-configurable-sample-data": "Sample Data version: 3.0.0",
-                "mage-os/module-msrp": "3.0.0",
-                "mage-os/module-product-links-sample-data": "Sample Data version: 3.0.0",
-                "mage-os/module-product-video": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-sales-rule": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-webapi": "3.0.0"
+                "mage-os/module-catalog-search": "3.1.0",
+                "mage-os/module-catalog-widget": "3.1.0",
+                "mage-os/module-configurable-sample-data": "Sample Data version: 3.1.0",
+                "mage-os/module-msrp": "3.1.0",
+                "mage-os/module-product-links-sample-data": "Sample Data version: 3.1.0",
+                "mage-os/module-product-video": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-sales-rule": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-webapi": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5626,18 +5625,18 @@
         },
         {
             "name": "mage-os/module-configurable-product-sales",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-configurable-product-sales-3.0.0.zip",
-                "shasum": "eeec9aed04a0ef7b856579500a8902a70c3f0349"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-configurable-product-sales-3.1.0.zip",
+                "shasum": "b40176b5b0b53ec76f603915bf998e14fff791a2"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-configurable-product": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-configurable-product": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5660,18 +5659,18 @@
         },
         {
             "name": "mage-os/module-contact",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-contact-3.0.0.zip",
-                "shasum": "bd67f404314347e30db89c3e3c934d4c5c58f0dc"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-contact-3.1.0.zip",
+                "shasum": "e525a7b6b283965a65c74a17876d59bf169a5e0e"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5694,22 +5693,22 @@
         },
         {
             "name": "mage-os/module-cookie",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-cookie-3.0.0.zip",
-                "shasum": "02ff307d4d71ccbd75dbf2b6cf12fd48f5d2df9b"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-cookie-3.1.0.zip",
+                "shasum": "22c9644dd49519d876e1dadf28256beeb39befa1"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-cookie": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-backend": "3.0.0"
+                "mage-os/module-backend": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5728,16 +5727,16 @@
         },
         {
             "name": "mage-os/module-cron",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-cron-3.0.0.zip",
-                "shasum": "7f509643f87fc196aff463423d4e12007e496ccf"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-cron-3.1.0.zip",
+                "shasum": "5f8391407ad2045bb00eada5d7aa13fee52e8b83"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5760,17 +5759,17 @@
         },
         {
             "name": "mage-os/module-csp",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-csp-3.0.0.zip",
-                "shasum": "4addcb9de13ccf8b110080753d750b54aea8f59c"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-csp-3.1.0.zip",
+                "shasum": "fe0d8ea742670651efe050dbf8c27bf4c01dcb4f"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-deploy": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-deploy": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5793,19 +5792,19 @@
         },
         {
             "name": "mage-os/module-currency-symbol",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-currency-symbol-3.0.0.zip",
-                "shasum": "7aec86a81ecf15efce7e7c9d7fa4450e9241e3f1"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-currency-symbol-3.1.0.zip",
+                "shasum": "4e937786abcb97ccc206c147bd192c5575c05b73"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5828,43 +5827,43 @@
         },
         {
             "name": "mage-os/module-customer",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-customer-3.0.0.zip",
-                "shasum": "10587cfe7e7f0e2468bead2dcec41b0dcb35ff79"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-customer-3.1.0.zip",
+                "shasum": "2ceb7ea1c24154fe51c8c3122b042673fe13762b"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-captcha": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-integration": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-newsletter": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-wishlist": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-captcha": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-integration": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-newsletter": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-wishlist": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-customer": "103.0.9"
             },
             "suggest": {
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-cookie": "3.0.0",
-                "mage-os/module-customer-sample-data": "Sample Data version: 3.0.0",
-                "mage-os/module-webapi": "3.0.0"
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-cookie": "3.1.0",
+                "mage-os/module-customer-sample-data": "Sample Data version: 3.1.0",
+                "mage-os/module-webapi": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -5883,18 +5882,18 @@
         },
         {
             "name": "mage-os/module-deploy",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-deploy-3.0.0.zip",
-                "shasum": "1fa675a652f6e0c67fe4ab8ea4708bf43b5b02c5"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-deploy-3.1.0.zip",
+                "shasum": "ff48213273f6dbe95011897e3bb557a040096e9d"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-user": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-user": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5918,16 +5917,16 @@
         },
         {
             "name": "mage-os/module-developer",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-developer-3.0.0.zip",
-                "shasum": "107e889cc5c80ff71a66b7c5e1a29f0656fde705"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-developer-3.1.0.zip",
+                "shasum": "295a749a4f1929a21435d52dcfbe79f9a931b062"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5950,18 +5949,18 @@
         },
         {
             "name": "mage-os/module-directory",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-directory-3.0.0.zip",
-                "shasum": "559a905089fb1e59a8a05a7afe75992c61ca4d89"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-directory-3.1.0.zip",
+                "shasum": "6c32a80954f0e6d551b41a283102fd62f816dc4c"
             },
             "require": {
                 "lib-libxml": "*",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -5984,37 +5983,37 @@
         },
         {
             "name": "mage-os/module-downloadable",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-downloadable-3.0.0.zip",
-                "shasum": "0cccb1899c168c8b326f18be241d608537543610"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-downloadable-3.1.0.zip",
+                "shasum": "cec08a9de52a916dc67835b24b637330e5a83f39"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-gift-message": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-gift-message": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-downloadable": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-downloadable-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-downloadable-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6033,19 +6032,19 @@
         },
         {
             "name": "mage-os/module-eav",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-eav-3.0.0.zip",
-                "shasum": "74510ab1c34627a59096a13b1a671266a5da1472"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-eav-3.1.0.zip",
+                "shasum": "1e6fbde270069a5ddb5e5dae8e372bae38c8732a"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6068,30 +6067,30 @@
         },
         {
             "name": "mage-os/module-elasticsearch",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-elasticsearch-3.0.0.zip",
-                "shasum": "dbedd01f4a6a343fa5ad81ca35d300196d93f794"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-elasticsearch-3.1.0.zip",
+                "shasum": "1898978cd4a8912beef20796bed25d259646debf"
             },
             "require": {
                 "elasticsearch/elasticsearch": "^8.15",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-advanced-search": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-catalog-search": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-search": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-advanced-search": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-catalog-search": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-search": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-elasticsearch": "101.0.9"
             },
             "suggest": {
-                "mage-os/module-config": "3.0.0"
+                "mage-os/module-config": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6110,30 +6109,30 @@
         },
         {
             "name": "mage-os/module-email",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-email-3.0.0.zip",
-                "shasum": "f3041c3e161a57d436a6ded5df13ef7ff4ba4564"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-email-3.1.0.zip",
+                "shasum": "b33d42b536e170cce669ebe78081ab2594696b40"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-variable": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-variable": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-email": "101.1.9"
             },
             "suggest": {
-                "mage-os/module-theme": "3.0.0"
+                "mage-os/module-theme": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6152,16 +6151,16 @@
         },
         {
             "name": "mage-os/module-encryption-key",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-encryption-key-3.0.0.zip",
-                "shasum": "1057ef18d80052b31ee5acc4611c6e8a78826c8a"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-encryption-key-3.1.0.zip",
+                "shasum": "fc912aafe9326d4c048f4c4ac0b445ae759c5e55"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-config": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-config": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6184,30 +6183,30 @@
         },
         {
             "name": "mage-os/module-gift-message",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-gift-message-3.0.0.zip",
-                "shasum": "915cabc0361e2b172b68e0b39923ca7f5a09dfcf"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-gift-message-3.1.0.zip",
+                "shasum": "e4fc6dd9a182fe22abe4e1c64478f078adf28d16"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-gift-message": "100.4.8"
             },
             "suggest": {
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-multishipping": "3.0.0"
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-multishipping": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6226,34 +6225,34 @@
         },
         {
             "name": "mage-os/module-grouped-product",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-grouped-product-3.0.0.zip",
-                "shasum": "59099cb159c38cbf1fbe1f1ab3d0ba6316989311"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-grouped-product-3.1.0.zip",
+                "shasum": "8be6d3c09ae3073edadfc556bdd54ae1aca0ed60"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-msrp": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-wishlist": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-msrp": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-wishlist": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-grouped-product": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-grouped-product-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-grouped-product-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6272,21 +6271,21 @@
         },
         {
             "name": "mage-os/module-import-export",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-import-export-3.0.0.zip",
-                "shasum": "64c9b241510a7a50d4a0d4266767eac3a8bd83dc"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-import-export-3.1.0.zip",
+                "shasum": "1b44042cb5b8c6de62786a2afedef84ef0260bd4"
             },
             "require": {
                 "ext-ctype": "*",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6309,16 +6308,16 @@
         },
         {
             "name": "mage-os/module-indexer",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-indexer-3.0.0.zip",
-                "shasum": "aa5130a7dec6b8a7a91c6df6e347c81b6df5c77c"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-indexer-3.1.0.zip",
+                "shasum": "c24ad54257006003b14715ecbc74aa7970a76760"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-amqp": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-amqp": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6341,21 +6340,21 @@
         },
         {
             "name": "mage-os/module-integration",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-integration-3.0.0.zip",
-                "shasum": "9f58634cf98c65aecbd9873ca888c749ff2d5265"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-integration-3.1.0.zip",
+                "shasum": "fa83b89fc1df322c7f24ff7943c1e95712a4c75b"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-security": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-user": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-security": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-user": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6378,14 +6377,14 @@
         },
         {
             "name": "mage-os/module-jwt-framework-adapter",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-jwt-framework-adapter-3.0.0.zip",
-                "shasum": "2a3ad8887bfc7654aa88022b5e6f7e6eaa96c89b"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-jwt-framework-adapter-3.1.0.zip",
+                "shasum": "a097fba7c50b1657084b8bb84dc8ef91d5fc9512"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0",
                 "web-token/jwt-framework": "^4.0"
             },
@@ -6409,16 +6408,16 @@
         },
         {
             "name": "mage-os/module-jwt-user-token",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-jwt-user-token-3.0.0.zip",
-                "shasum": "8f2a33f0c15dfe29c1cd8a3ac4731100e6c76caf"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-jwt-user-token-3.1.0.zip",
+                "shasum": "f6f0d6dd0edb545cc182021cf117cfdeabcab445"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-integration": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-integration": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6441,16 +6440,16 @@
         },
         {
             "name": "mage-os/module-layered-navigation",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-layered-navigation-3.0.0.zip",
-                "shasum": "fcffea93299cece95cde4275e871aef1c9d29744"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-layered-navigation-3.1.0.zip",
+                "shasum": "ecdd8388f767b8647f5216b46a3d8181c4925b5e"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6473,22 +6472,22 @@
         },
         {
             "name": "mage-os/module-media-storage",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-media-storage-3.0.0.zip",
-                "shasum": "458631b190c1e892571142173128953cbb83acb0"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-media-storage-3.1.0.zip",
+                "shasum": "752dc31add2c2930a886a56dd2c3083020d84fab"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6511,16 +6510,16 @@
         },
         {
             "name": "mage-os/module-message-queue",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-message-queue-3.0.0.zip",
-                "shasum": "377a52131bee10efd8928257dfd03ad505dd753c"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-message-queue-3.1.0.zip",
+                "shasum": "48d66b0d321f9838606e6e31b2081cb923f0cf20"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-message-queue": "3.0.0",
-                "mage-os/magento-composer-installer": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-message-queue": "3.1.0",
+                "mage-os/magento-composer-installer": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6543,27 +6542,27 @@
         },
         {
             "name": "mage-os/module-msrp",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-msrp-3.0.0.zip",
-                "shasum": "c7036b2581681ed5e0b2779b8e49f7ca1bda83c1"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-msrp-3.1.0.zip",
+                "shasum": "467db9862fb8dd4ea6b652e6d09dfff8b25405ac"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-downloadable": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-downloadable": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-msrp": "100.4.8"
             },
             "suggest": {
-                "mage-os/module-bundle": "3.0.0",
-                "mage-os/module-msrp-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-bundle": "3.1.0",
+                "mage-os/module-msrp-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6582,24 +6581,24 @@
         },
         {
             "name": "mage-os/module-multishipping",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-multishipping-3.0.0.zip",
-                "shasum": "1659228187e6508150cd604895b856103adc17f5"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-multishipping-3.1.0.zip",
+                "shasum": "6496ad85b23be7595af161ed019bd44a8084baa6"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-captcha": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-captcha": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6622,17 +6621,17 @@
         },
         {
             "name": "mage-os/module-mysql-mq",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-mysql-mq-3.0.0.zip",
-                "shasum": "cd7400bfb2209e73066ec382a6c5ace1cba82fe0"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-mysql-mq-3.1.0.zip",
+                "shasum": "4eb23795ffc81012f91df6a55016208c87d57789"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-message-queue": "3.0.0",
-                "mage-os/magento-composer-installer": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-message-queue": "3.1.0",
+                "mage-os/magento-composer-installer": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6655,23 +6654,23 @@
         },
         {
             "name": "mage-os/module-newsletter",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-newsletter-3.0.0.zip",
-                "shasum": "796576747142f54f1b6b17e44d1f0d4d2810c0a7"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-newsletter-3.1.0.zip",
+                "shasum": "f9b2b835ddfcab10228a2618ece65fd2b044543b"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-email": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-email": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6694,19 +6693,19 @@
         },
         {
             "name": "mage-os/module-open-search",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-open-search-3.0.0.zip",
-                "shasum": "5ddb1c91c523d32992781d5696321fe4aa0ac789"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-open-search-3.1.0.zip",
+                "shasum": "df78ccf948b43b633b7f4270772881608f965c4e"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-advanced-search": "3.0.0",
-                "mage-os/module-catalog-search": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-elasticsearch": "3.0.0",
-                "mage-os/module-search": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-advanced-search": "3.1.0",
+                "mage-os/module-catalog-search": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-elasticsearch": "3.1.0",
+                "mage-os/module-search": "3.1.0",
                 "opensearch-project/opensearch-php": "^2.3",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
@@ -6730,17 +6729,17 @@
         },
         {
             "name": "mage-os/module-order-cancellation",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-order-cancellation-3.0.0.zip",
-                "shasum": "4f898758dadf3ebef45336af0f63a3e206c3faa7"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-order-cancellation-3.1.0.zip",
+                "shasum": "ad4e79685c3b81deff97e1491be37c2344d464da"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6763,17 +6762,17 @@
         },
         {
             "name": "mage-os/module-order-cancellation-ui",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-order-cancellation-ui-3.0.0.zip",
-                "shasum": "a5b2a828f13c35b9a2f68c306f2d19f53866a6ea"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-order-cancellation-ui-3.1.0.zip",
+                "shasum": "1a00bd1d0571a0b314cff23ba20ee6067ea144e0"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-order-cancellation": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-order-cancellation": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6796,18 +6795,18 @@
         },
         {
             "name": "mage-os/module-page-cache",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-page-cache-3.0.0.zip",
-                "shasum": "ff8a108f064ae0baac6b5ac42b7d00063adc0bae"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-page-cache-3.1.0.zip",
+                "shasum": "3dd0d26d8e017589a7188f5b5a74b2b93f68dade"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6830,21 +6829,21 @@
         },
         {
             "name": "mage-os/module-payment",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-payment-3.0.0.zip",
-                "shasum": "92545a0ae89ffb3848da925612d6cf892d1ee402"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-payment-3.1.0.zip",
+                "shasum": "64868c5d87827c95a3aa55958941d45aab623b7c"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6867,29 +6866,29 @@
         },
         {
             "name": "mage-os/module-product-alert",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-product-alert-3.0.0.zip",
-                "shasum": "f255ba02f7326ae307962cc8cd6a1dc63dde4827"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-product-alert-3.1.0.zip",
+                "shasum": "e2aad5c381d519a787cea96775b9c7a83e9513a7"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-product-alert": "100.4.8"
             },
             "suggest": {
-                "mage-os/module-config": "3.0.0"
+                "mage-os/module-config": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6908,35 +6907,35 @@
         },
         {
             "name": "mage-os/module-quote",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-3.0.0.zip",
-                "shasum": "6d908fa9296d12f353f9522b3624ff86e557a731"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-3.1.0.zip",
+                "shasum": "68ec848ce8fd7dbf857f6299a71854abc4d1013d"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-sales-sequence": "3.0.0",
-                "mage-os/module-shipping": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-sales-sequence": "3.1.0",
+                "mage-os/module-shipping": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-quote": "101.2.9"
             },
             "suggest": {
-                "mage-os/module-webapi": "3.0.0"
+                "mage-os/module-webapi": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -6955,15 +6954,15 @@
         },
         {
             "name": "mage-os/module-quote-bundle-options",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-bundle-options-3.0.0.zip",
-                "shasum": "430b356c8a9892d3e48fb649ec23ed8a2b65efd0"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-bundle-options-3.1.0.zip",
+                "shasum": "24039f250a18500587f0ce45be759027cefc3bfb"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -6986,15 +6985,15 @@
         },
         {
             "name": "mage-os/module-quote-configurable-options",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-configurable-options-3.0.0.zip",
-                "shasum": "ed2a28d07d1626e9e5e9d466903c1b0684234e9f"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-configurable-options-3.1.0.zip",
+                "shasum": "bad93b5edd4873dd82505430f8cc891d59f8e9c7"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7017,15 +7016,15 @@
         },
         {
             "name": "mage-os/module-quote-downloadable-links",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-downloadable-links-3.0.0.zip",
-                "shasum": "4eeb3919119396df8f2deac9be2be21ddbaebd63"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-quote-downloadable-links-3.1.0.zip",
+                "shasum": "2022749e3590347a3f7c6be6a8f00a39c888c1cc"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7048,33 +7047,33 @@
         },
         {
             "name": "mage-os/module-remote-storage",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-remote-storage-3.0.0.zip",
-                "shasum": "57fe0f2adc607e835c6aca47321d6e2d61fb9200"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-remote-storage-3.1.0.zip",
+                "shasum": "8a072c5525c0ff3a8058f61462b9a7449f99c218"
             },
             "require": {
                 "league/flysystem": "^3.0",
                 "league/flysystem-aws-s3-v3": "^3.0",
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-remote-storage": "100.4.7"
             },
             "suggest": {
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-import-export": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-downloadable": "3.0.0",
-                "mage-os/module-downloadable-import-export": "3.0.0",
-                "mage-os/module-import-export": "3.0.0",
-                "mage-os/module-media-gallery-metadata": "3.0.0",
-                "mage-os/module-media-gallery-synchronization": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-sitemap": "3.0.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-import-export": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-downloadable": "3.1.0",
+                "mage-os/module-downloadable-import-export": "3.1.0",
+                "mage-os/module-import-export": "3.1.0",
+                "mage-os/module-media-gallery-metadata": "3.1.0",
+                "mage-os/module-media-gallery-synchronization": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-sitemap": "3.1.0",
                 "predis/predis": "*"
             },
             "type": "magento2-module",
@@ -7094,31 +7093,31 @@
         },
         {
             "name": "mage-os/module-reports",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-reports-3.0.0.zip",
-                "shasum": "6e20115d9dbcd5fd7b9a079ce91fde066cabd98e"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-reports-3.1.0.zip",
+                "shasum": "b5c7518630e4ba2dc8a7765f660285d25bf8f650"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-downloadable": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-review": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-sales-rule": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
-                "mage-os/module-wishlist": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-downloadable": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-review": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-sales-rule": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
+                "mage-os/module-wishlist": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7141,14 +7140,14 @@
         },
         {
             "name": "mage-os/module-require-js",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-require-js-3.0.0.zip",
-                "shasum": "dc6e4141cb506b4f743ae85baa3f71b5ed51ea28"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-require-js-3.1.0.zip",
+                "shasum": "9f745cac8b425e454d758f9f8ea73b0d3a741cb2"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7171,30 +7170,30 @@
         },
         {
             "name": "mage-os/module-review",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-review-3.0.0.zip",
-                "shasum": "f024a941057a711f7e780bda75193df8ec1564dd"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-review-3.1.0.zip",
+                "shasum": "c2eb9a01cd7f7fe8638c93d4bfb243669757a436"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-newsletter": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-newsletter": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-review": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-cookie": "3.0.0",
-                "mage-os/module-review-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-cookie": "3.1.0",
+                "mage-os/module-review-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7213,17 +7212,17 @@
         },
         {
             "name": "mage-os/module-rss",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-rss-3.0.0.zip",
-                "shasum": "cef35ec1a474f80011f83c5d0bf3083199dacef4"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-rss-3.1.0.zip",
+                "shasum": "94b3db4a73fe1fe96a5b543946ca17087b2b5b44"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7246,19 +7245,19 @@
         },
         {
             "name": "mage-os/module-rule",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-rule-3.0.0.zip",
-                "shasum": "7187e769462e5396880d3d60edaa04c93c5972be"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-rule-3.1.0.zip",
+                "shasum": "56faba873a0a91883483a83ae4f36e0070b2719b"
             },
             "require": {
                 "lib-libxml": "*",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7281,46 +7280,46 @@
         },
         {
             "name": "mage-os/module-sales",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-sales-3.0.0.zip",
-                "shasum": "717b55b2b11691163b49974d655ec8a735995ae8"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-sales-3.1.0.zip",
+                "shasum": "28b11399a2da42704d0761453b1d8918a54a98c5"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-bundle": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-encryption-key": "3.0.0",
-                "mage-os/module-gift-message": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-reports": "3.0.0",
-                "mage-os/module-sales-rule": "3.0.0",
-                "mage-os/module-sales-sequence": "3.0.0",
-                "mage-os/module-shipping": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
-                "mage-os/module-wishlist": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-bundle": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-encryption-key": "3.1.0",
+                "mage-os/module-gift-message": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-reports": "3.1.0",
+                "mage-os/module-sales-rule": "3.1.0",
+                "mage-os/module-sales-sequence": "3.1.0",
+                "mage-os/module-shipping": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
+                "mage-os/module-wishlist": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-sales": "103.0.9"
             },
             "suggest": {
-                "mage-os/module-sales-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-sales-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7339,44 +7338,44 @@
         },
         {
             "name": "mage-os/module-sales-rule",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-sales-rule-3.0.0.zip",
-                "shasum": "a27643d96fcaca378beac3b0d9eb7ca8be982cdb"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-sales-rule-3.1.0.zip",
+                "shasum": "135721e2ef50b2fbb5491903dc8e6bed1d5149b4"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-captcha": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-rule": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-multishipping": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-reports": "3.0.0",
-                "mage-os/module-rule": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-shipping": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-captcha": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-rule": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-multishipping": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-reports": "3.1.0",
+                "mage-os/module-rule": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-shipping": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-sales-rule": "101.2.9"
             },
             "suggest": {
-                "mage-os/module-sales-rule-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-sales-rule-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7395,14 +7394,14 @@
         },
         {
             "name": "mage-os/module-sales-sequence",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-sales-sequence-3.0.0.zip",
-                "shasum": "57161e003b4dc7c8aeb9dd5e9e615b0ef948eb65"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-sales-sequence-3.1.0.zip",
+                "shasum": "dc673e48cbe418bf8dd9e8c964f227ebf7a56efc"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7425,19 +7424,19 @@
         },
         {
             "name": "mage-os/module-search",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-search-3.0.0.zip",
-                "shasum": "705538a537e678e96c160830e9b85a2dc5c435b0"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-search-3.1.0.zip",
+                "shasum": "54453c4966492f1b5e43bd34fb4b0c7d5140cd77"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog-search": "3.0.0",
-                "mage-os/module-reports": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog-search": "3.1.0",
+                "mage-os/module-reports": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7460,25 +7459,25 @@
         },
         {
             "name": "mage-os/module-security",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-security-3.0.0.zip",
-                "shasum": "7432da6facbe86b95eaf367f6f64d6f4a1cb6600"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-security-3.1.0.zip",
+                "shasum": "6e6206aff4145878e2372f70f6864866675b5e91"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-user": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-user": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-security": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-customer": "3.0.0"
+                "mage-os/module-customer": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7497,37 +7496,37 @@
         },
         {
             "name": "mage-os/module-shipping",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-shipping-3.0.0.zip",
-                "shasum": "17617e17df1617cf019cb9199f66702f641c4ac9"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-shipping-3.1.0.zip",
+                "shasum": "ef257a5087fd420f253ffac3c23b8828f975cb51"
             },
             "require": {
                 "ext-gd": "*",
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-contact": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-user": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-contact": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-user": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-shipping": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-fedex": "3.0.0",
-                "mage-os/module-ups": "3.0.0"
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-fedex": "3.1.0",
+                "mage-os/module-ups": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7546,29 +7545,29 @@
         },
         {
             "name": "mage-os/module-store",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-store-3.0.0.zip",
-                "shasum": "3ad55d8c210e6e7c66068a37f57ace0dcee634b9"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-store-3.1.0.zip",
+                "shasum": "1013d2aa8a7330f1559bde20252328ceaa160e2c"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-store": "101.1.9"
             },
             "suggest": {
-                "mage-os/module-deploy": "3.0.0"
+                "mage-os/module-deploy": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7587,32 +7586,32 @@
         },
         {
             "name": "mage-os/module-swatches",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-swatches-3.0.0.zip",
-                "shasum": "b1e3d6e6c705c83fa4475d72081b87c863a749ef"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-swatches-3.1.0.zip",
+                "shasum": "590623d763b8c0f86a32bc57388dc209c86ede27"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-configurable-product": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-configurable-product": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-swatches": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-layered-navigation": "3.0.0",
-                "mage-os/module-swatches-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-layered-navigation": "3.1.0",
+                "mage-os/module-swatches-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7631,15 +7630,15 @@
         },
         {
             "name": "mage-os/module-swatches-layered-navigation",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-swatches-layered-navigation-3.0.0.zip",
-                "shasum": "e890d9f52ebf257e04da6dc8fc9bd563dec1e7e7"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-swatches-layered-navigation-3.1.0.zip",
+                "shasum": "f99c710e26fc1798dbf87da2848db1523eb5e2a0"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/magento-composer-installer": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/magento-composer-installer": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7662,35 +7661,35 @@
         },
         {
             "name": "mage-os/module-tax",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-tax-3.0.0.zip",
-                "shasum": "58897034ff628aeebe8bd9aaaf21684e9e222196"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-tax-3.1.0.zip",
+                "shasum": "5d31d2b30ad6303b95aeb831b27779cc7d5fc0db"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-reports": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-shipping": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-reports": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-shipping": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-tax": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-tax-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-tax-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7709,34 +7708,34 @@
         },
         {
             "name": "mage-os/module-theme",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-theme-3.0.0.zip",
-                "shasum": "711de17317e74fdc75687a910c55fad8a6918bc5"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-theme-3.1.0.zip",
+                "shasum": "a71c9b41a81f585acefdee6e835fa32870f13311"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-csp": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-csp": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-theme": "101.1.9"
             },
             "suggest": {
-                "mage-os/module-deploy": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-theme-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-deploy": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-theme-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7755,26 +7754,26 @@
         },
         {
             "name": "mage-os/module-translation",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-translation-3.0.0.zip",
-                "shasum": "416f8cc9961acf331889dffcd18ebcf66046cf3a"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-translation-3.1.0.zip",
+                "shasum": "2fb40631e10066ba401566f7f380175c476fa64e"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-deploy": "3.0.0",
-                "mage-os/module-developer": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-deploy": "3.1.0",
+                "mage-os/module-developer": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-translation": "100.4.9"
             },
             "suggest": {
-                "mage-os/module-deploy": "3.0.0"
+                "mage-os/module-deploy": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7793,26 +7792,26 @@
         },
         {
             "name": "mage-os/module-ui",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-ui-3.0.0.zip",
-                "shasum": "cb2504a989b2dff3b255aae31e40a2afe37a6277"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-ui-3.1.0.zip",
+                "shasum": "190a17478725506eb896be50f016695412c03ce7"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-user": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-user": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-ui": "101.2.9"
             },
             "suggest": {
-                "mage-os/module-config": "3.0.0"
+                "mage-os/module-config": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7831,21 +7830,21 @@
         },
         {
             "name": "mage-os/module-url-rewrite",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-url-rewrite-3.0.0.zip",
-                "shasum": "8eb93077ea6a8a71bfab24f326b463ab3bcbc6ff"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-url-rewrite-3.1.0.zip",
+                "shasum": "ec73c7504dbc6cce0b42af22d21efa2858efa9b9"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-url-rewrite": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-cms-url-rewrite": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-url-rewrite": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-cms-url-rewrite": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7868,21 +7867,21 @@
         },
         {
             "name": "mage-os/module-user",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-user-3.0.0.zip",
-                "shasum": "eacc400f160a66ee8ea56a386905b2fe475bb28f"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-user-3.1.0.zip",
+                "shasum": "1dc53c1ca8da7090864e8830648be9cc7e108fd9"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-email": "3.0.0",
-                "mage-os/module-integration": "3.0.0",
-                "mage-os/module-security": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-email": "3.1.0",
+                "mage-os/module-integration": "3.1.0",
+                "mage-os/module-security": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7905,18 +7904,18 @@
         },
         {
             "name": "mage-os/module-variable",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-variable-3.0.0.zip",
-                "shasum": "726dd457e616220c0c1e514ac27c87c76b283194"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-variable-3.1.0.zip",
+                "shasum": "1881eaf8fd7c34c9b880dc24237eaaaf9389701e"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -7939,26 +7938,26 @@
         },
         {
             "name": "mage-os/module-webapi",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-webapi-3.0.0.zip",
-                "shasum": "70cb7dcb2e03b4593c7f532b82f09ae7a65f1cb1"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-webapi-3.1.0.zip",
+                "shasum": "e2e6c22c1e489be958370f9485e5da8f1f5bdfdd"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-integration": "3.0.0",
-                "mage-os/module-store": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-integration": "3.1.0",
+                "mage-os/module-store": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-webapi": "100.4.8"
             },
             "suggest": {
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-user": "3.0.0"
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-user": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -7977,25 +7976,25 @@
         },
         {
             "name": "mage-os/module-webapi-async",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-webapi-async-3.0.0.zip",
-                "shasum": "9ec9c9cd56ff263915520a48e6084526d00898a4"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-webapi-async-3.1.0.zip",
+                "shasum": "9263423ca1d950a29e41a08a9a73ff3aa874e44a"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-webapi": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-webapi": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-webapi-async": "100.4.7"
             },
             "suggest": {
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-user": "3.0.0"
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-user": "3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -8014,15 +8013,15 @@
         },
         {
             "name": "mage-os/module-webapi-security",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-webapi-security-3.0.0.zip",
-                "shasum": "9fa44f9fb0833d1859f6a86e1e698f6651242c4d"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-webapi-security-3.1.0.zip",
+                "shasum": "abcd4975294ad7dfd1ccbde3431a3fc226fe16f9"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-webapi": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-webapi": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -8045,29 +8044,29 @@
         },
         {
             "name": "mage-os/module-widget",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-widget-3.0.0.zip",
-                "shasum": "7a743181392df1dbc38eebd46ae36913bb22a09d"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-widget-3.1.0.zip",
+                "shasum": "711c6ba0e90932d6615e65e918d4958180d014f4"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-email": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-variable": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-email": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-variable": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-widget": "101.2.9"
             },
             "suggest": {
-                "mage-os/module-widget-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-widget-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -8086,37 +8085,37 @@
         },
         {
             "name": "mage-os/module-wishlist",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/module-wishlist-3.0.0.zip",
-                "shasum": "d3c8b8be81dc0e539db8fe229b3a40a979543b15"
+                "url": "https://repo.mage-os.org/packages/mage-os/module-wishlist-3.1.0.zip",
+                "shasum": "1374c882b2ce004daac3a0aa66ff60dccb6c6a09"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-captcha": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-inventory": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-rss": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-captcha": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-inventory": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-rss": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
                 "magento/module-wishlist": "101.2.9"
             },
             "suggest": {
-                "mage-os/module-bundle": "3.0.0",
-                "mage-os/module-configurable-product": "3.0.0",
-                "mage-os/module-cookie": "3.0.0",
-                "mage-os/module-downloadable": "3.0.0",
-                "mage-os/module-grouped-product": "3.0.0",
-                "mage-os/module-wishlist-sample-data": "Sample Data version: 3.0.0"
+                "mage-os/module-bundle": "3.1.0",
+                "mage-os/module-configurable-product": "3.1.0",
+                "mage-os/module-cookie": "3.1.0",
+                "mage-os/module-downloadable": "3.1.0",
+                "mage-os/module-grouped-product": "3.1.0",
+                "mage-os/module-wishlist-sample-data": "Sample Data version: 3.1.0"
             },
             "type": "magento2-module",
             "autoload": {
@@ -8135,11 +8134,11 @@
         },
         {
             "name": "mage-os/product-minimal-edition",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/product-minimal-edition-3.0.0.zip",
-                "shasum": "5d8452a1767a43dc03017de1363ff92271cbd107"
+                "url": "https://repo.mage-os.org/packages/mage-os/product-minimal-edition-3.1.0.zip",
+                "shasum": "830964949e89ccd423ebe86384948c5c26817a3c"
             },
             "require": {
                 "colinmollenhour/cache-backend-file": "^1.4",
@@ -8180,102 +8179,102 @@
                 "laminas/laminas-uri": "^2.14",
                 "laminas/laminas-validator": "^2.23",
                 "lib-libxml": "*",
-                "mage-os/composer": "3.0.0",
-                "mage-os/composer-dependency-version-audit-plugin": "3.0.0",
-                "mage-os/framework": "3.0.0",
-                "mage-os/framework-amqp": "3.0.0",
-                "mage-os/framework-bulk": "3.0.0",
-                "mage-os/framework-message-queue": "3.0.0",
-                "mage-os/magento-composer-installer": "3.0.0",
-                "mage-os/magento2-base": "3.0.0",
-                "mage-os/module-admin-notification": "3.0.0",
-                "mage-os/module-advanced-search": "3.0.0",
-                "mage-os/module-async-config": "3.0.0",
-                "mage-os/module-asynchronous-operations": "3.0.0",
-                "mage-os/module-authorization": "3.0.0",
-                "mage-os/module-backend": "3.0.0",
-                "mage-os/module-bundle": "3.0.0",
-                "mage-os/module-cache-invalidate": "3.0.0",
-                "mage-os/module-captcha": "3.0.0",
-                "mage-os/module-catalog": "3.0.0",
-                "mage-os/module-catalog-import-export": "3.0.0",
-                "mage-os/module-catalog-rule": "3.0.0",
-                "mage-os/module-catalog-rule-configurable": "3.0.0",
-                "mage-os/module-catalog-search": "3.0.0",
-                "mage-os/module-catalog-url-rewrite": "3.0.0",
-                "mage-os/module-checkout": "3.0.0",
-                "mage-os/module-cms": "3.0.0",
-                "mage-os/module-cms-url-rewrite": "3.0.0",
-                "mage-os/module-config": "3.0.0",
-                "mage-os/module-configurable-import-export": "3.0.0",
-                "mage-os/module-configurable-product": "3.0.0",
-                "mage-os/module-configurable-product-sales": "3.0.0",
-                "mage-os/module-contact": "3.0.0",
-                "mage-os/module-cookie": "3.0.0",
-                "mage-os/module-cron": "3.0.0",
-                "mage-os/module-currency-symbol": "3.0.0",
-                "mage-os/module-customer": "3.0.0",
-                "mage-os/module-deploy": "3.0.0",
-                "mage-os/module-developer": "3.0.0",
-                "mage-os/module-directory": "3.0.0",
-                "mage-os/module-downloadable": "3.0.0",
-                "mage-os/module-eav": "3.0.0",
-                "mage-os/module-email": "3.0.0",
-                "mage-os/module-encryption-key": "3.0.0",
-                "mage-os/module-gift-message": "3.0.0",
-                "mage-os/module-grouped-product": "3.0.0",
-                "mage-os/module-import-export": "3.0.0",
-                "mage-os/module-indexer": "3.0.0",
-                "mage-os/module-integration": "3.0.0",
-                "mage-os/module-jwt-framework-adapter": "3.0.0",
-                "mage-os/module-jwt-user-token": "3.0.0",
-                "mage-os/module-layered-navigation": "3.0.0",
-                "mage-os/module-media-storage": "3.0.0",
-                "mage-os/module-message-queue": "3.0.0",
-                "mage-os/module-mysql-mq": "3.0.0",
-                "mage-os/module-newsletter": "3.0.0",
-                "mage-os/module-open-search": "3.0.0",
-                "mage-os/module-order-cancellation": "3.0.0",
-                "mage-os/module-order-cancellation-ui": "3.0.0",
-                "mage-os/module-page-cache": "3.0.0",
-                "mage-os/module-payment": "3.0.0",
-                "mage-os/module-product-alert": "3.0.0",
-                "mage-os/module-quote": "3.0.0",
-                "mage-os/module-quote-bundle-options": "3.0.0",
-                "mage-os/module-quote-configurable-options": "3.0.0",
-                "mage-os/module-quote-downloadable-links": "3.0.0",
-                "mage-os/module-remote-storage": "3.0.0",
-                "mage-os/module-reports": "3.0.0",
-                "mage-os/module-require-js": "3.0.0",
-                "mage-os/module-review": "3.0.0",
-                "mage-os/module-rule": "3.0.0",
-                "mage-os/module-sales": "3.0.0",
-                "mage-os/module-sales-rule": "3.0.0",
-                "mage-os/module-sales-sequence": "3.0.0",
-                "mage-os/module-search": "3.0.0",
-                "mage-os/module-security": "3.0.0",
-                "mage-os/module-shipping": "3.0.0",
-                "mage-os/module-store": "3.0.0",
-                "mage-os/module-swatches": "3.0.0",
-                "mage-os/module-swatches-layered-navigation": "3.0.0",
-                "mage-os/module-tax": "3.0.0",
-                "mage-os/module-theme": "3.0.0",
-                "mage-os/module-translation": "3.0.0",
-                "mage-os/module-ui": "3.0.0",
-                "mage-os/module-url-rewrite": "3.0.0",
-                "mage-os/module-user": "3.0.0",
-                "mage-os/module-variable": "3.0.0",
-                "mage-os/module-webapi": "3.0.0",
-                "mage-os/module-webapi-async": "3.0.0",
-                "mage-os/module-webapi-security": "3.0.0",
-                "mage-os/module-widget": "3.0.0",
-                "mage-os/module-wishlist": "3.0.0",
-                "mage-os/theme-adminhtml-backend": "3.0.0",
-                "mage-os/theme-frontend-blank": "3.0.0",
-                "mage-os/theme-frontend-luma": "3.0.0",
-                "mage-os/zend-cache": "3.0.0",
-                "mage-os/zend-db": "3.0.0",
-                "mage-os/zend-pdf": "3.0.0",
+                "mage-os/composer": "3.1.0",
+                "mage-os/composer-dependency-version-audit-plugin": "3.1.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/framework-amqp": "3.1.0",
+                "mage-os/framework-bulk": "3.1.0",
+                "mage-os/framework-message-queue": "3.1.0",
+                "mage-os/magento-composer-installer": "3.1.0",
+                "mage-os/magento2-base": "3.1.0",
+                "mage-os/module-admin-notification": "3.1.0",
+                "mage-os/module-advanced-search": "3.1.0",
+                "mage-os/module-async-config": "3.1.0",
+                "mage-os/module-asynchronous-operations": "3.1.0",
+                "mage-os/module-authorization": "3.1.0",
+                "mage-os/module-backend": "3.1.0",
+                "mage-os/module-bundle": "3.1.0",
+                "mage-os/module-cache-invalidate": "3.1.0",
+                "mage-os/module-captcha": "3.1.0",
+                "mage-os/module-catalog": "3.1.0",
+                "mage-os/module-catalog-import-export": "3.1.0",
+                "mage-os/module-catalog-rule": "3.1.0",
+                "mage-os/module-catalog-rule-configurable": "3.1.0",
+                "mage-os/module-catalog-search": "3.1.0",
+                "mage-os/module-catalog-url-rewrite": "3.1.0",
+                "mage-os/module-checkout": "3.1.0",
+                "mage-os/module-cms": "3.1.0",
+                "mage-os/module-cms-url-rewrite": "3.1.0",
+                "mage-os/module-config": "3.1.0",
+                "mage-os/module-configurable-import-export": "3.1.0",
+                "mage-os/module-configurable-product": "3.1.0",
+                "mage-os/module-configurable-product-sales": "3.1.0",
+                "mage-os/module-contact": "3.1.0",
+                "mage-os/module-cookie": "3.1.0",
+                "mage-os/module-cron": "3.1.0",
+                "mage-os/module-currency-symbol": "3.1.0",
+                "mage-os/module-customer": "3.1.0",
+                "mage-os/module-deploy": "3.1.0",
+                "mage-os/module-developer": "3.1.0",
+                "mage-os/module-directory": "3.1.0",
+                "mage-os/module-downloadable": "3.1.0",
+                "mage-os/module-eav": "3.1.0",
+                "mage-os/module-email": "3.1.0",
+                "mage-os/module-encryption-key": "3.1.0",
+                "mage-os/module-gift-message": "3.1.0",
+                "mage-os/module-grouped-product": "3.1.0",
+                "mage-os/module-import-export": "3.1.0",
+                "mage-os/module-indexer": "3.1.0",
+                "mage-os/module-integration": "3.1.0",
+                "mage-os/module-jwt-framework-adapter": "3.1.0",
+                "mage-os/module-jwt-user-token": "3.1.0",
+                "mage-os/module-layered-navigation": "3.1.0",
+                "mage-os/module-media-storage": "3.1.0",
+                "mage-os/module-message-queue": "3.1.0",
+                "mage-os/module-mysql-mq": "3.1.0",
+                "mage-os/module-newsletter": "3.1.0",
+                "mage-os/module-open-search": "3.1.0",
+                "mage-os/module-order-cancellation": "3.1.0",
+                "mage-os/module-order-cancellation-ui": "3.1.0",
+                "mage-os/module-page-cache": "3.1.0",
+                "mage-os/module-payment": "3.1.0",
+                "mage-os/module-product-alert": "3.1.0",
+                "mage-os/module-quote": "3.1.0",
+                "mage-os/module-quote-bundle-options": "3.1.0",
+                "mage-os/module-quote-configurable-options": "3.1.0",
+                "mage-os/module-quote-downloadable-links": "3.1.0",
+                "mage-os/module-remote-storage": "3.1.0",
+                "mage-os/module-reports": "3.1.0",
+                "mage-os/module-require-js": "3.1.0",
+                "mage-os/module-review": "3.1.0",
+                "mage-os/module-rule": "3.1.0",
+                "mage-os/module-sales": "3.1.0",
+                "mage-os/module-sales-rule": "3.1.0",
+                "mage-os/module-sales-sequence": "3.1.0",
+                "mage-os/module-search": "3.1.0",
+                "mage-os/module-security": "3.1.0",
+                "mage-os/module-shipping": "3.1.0",
+                "mage-os/module-store": "3.1.0",
+                "mage-os/module-swatches": "3.1.0",
+                "mage-os/module-swatches-layered-navigation": "3.1.0",
+                "mage-os/module-tax": "3.1.0",
+                "mage-os/module-theme": "3.1.0",
+                "mage-os/module-translation": "3.1.0",
+                "mage-os/module-ui": "3.1.0",
+                "mage-os/module-url-rewrite": "3.1.0",
+                "mage-os/module-user": "3.1.0",
+                "mage-os/module-variable": "3.1.0",
+                "mage-os/module-webapi": "3.1.0",
+                "mage-os/module-webapi-async": "3.1.0",
+                "mage-os/module-webapi-security": "3.1.0",
+                "mage-os/module-widget": "3.1.0",
+                "mage-os/module-wishlist": "3.1.0",
+                "mage-os/theme-adminhtml-backend": "3.1.0",
+                "mage-os/theme-frontend-blank": "3.1.0",
+                "mage-os/theme-frontend-luma": "3.1.0",
+                "mage-os/zend-cache": "3.1.0",
+                "mage-os/zend-db": "3.1.0",
+                "mage-os/zend-pdf": "3.1.0",
                 "monolog/monolog": "^3.6",
                 "pelago/emogrifier": "^8.1",
                 "php": "~8.3.0||~8.4.0||~8.5.0",
@@ -8305,14 +8304,14 @@
         },
         {
             "name": "mage-os/theme-adminhtml-backend",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/theme-adminhtml-backend-3.0.0.zip",
-                "shasum": "1fde7b279ab9f42898f4b67c866a6b7b640baaf8"
+                "url": "https://repo.mage-os.org/packages/mage-os/theme-adminhtml-backend-3.1.0.zip",
+                "shasum": "0445d5d860f1be0192ee37a39a52727c4dd944eb"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -8332,14 +8331,14 @@
         },
         {
             "name": "mage-os/theme-frontend-blank",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/theme-frontend-blank-3.0.0.zip",
-                "shasum": "1c97aa95af5fea54e9810453391fb2b62d13a179"
+                "url": "https://repo.mage-os.org/packages/mage-os/theme-frontend-blank-3.1.0.zip",
+                "shasum": "cd9766f24c19318307b50a3ae38a86901d18fee7"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
+                "mage-os/framework": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -8359,15 +8358,15 @@
         },
         {
             "name": "mage-os/theme-frontend-luma",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/theme-frontend-luma-3.0.0.zip",
-                "shasum": "bf71f8ec45144096a70e1317486929f709db4035"
+                "url": "https://repo.mage-os.org/packages/mage-os/theme-frontend-luma-3.1.0.zip",
+                "shasum": "a970573baa04761655cfa1aa5091e71524c310c0"
             },
             "require": {
-                "mage-os/framework": "3.0.0",
-                "mage-os/theme-frontend-blank": "3.0.0",
+                "mage-os/framework": "3.1.0",
+                "mage-os/theme-frontend-blank": "3.1.0",
                 "php": "~8.3.0||~8.4.0||~8.5.0"
             },
             "replace": {
@@ -8387,15 +8386,15 @@
         },
         {
             "name": "mage-os/zend-cache",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-cache-3.0.0.zip",
-                "shasum": "9b210f5aa7dae2d6d2b8e56336ec645421e8f5fe"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-cache-3.1.0.zip",
+                "shasum": "8a6f4a571de8ed265e126f5c558ee60700ee4538"
             },
             "require": {
-                "mage-os/zend-exception": "3.0.0",
-                "mage-os/zend-log": "3.0.0",
+                "mage-os/zend-exception": "3.1.0",
+                "mage-os/zend-log": "3.1.0",
                 "php": ">=7.0.0"
             },
             "replace": {
@@ -8426,15 +8425,15 @@
         },
         {
             "name": "mage-os/zend-db",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-db-3.0.0.zip",
-                "shasum": "228c30ff0b134028896003a1406ec9956e277d4c"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-db-3.1.0.zip",
+                "shasum": "d82ddda9f9a25124f88df1e86abf9791a3bd608e"
             },
             "require": {
-                "mage-os/zend-exception": "3.0.0",
-                "mage-os/zend-loader": "3.0.0",
+                "mage-os/zend-exception": "3.1.0",
+                "mage-os/zend-loader": "3.1.0",
                 "php": ">=7.0.0"
             },
             "replace": {
@@ -8465,11 +8464,11 @@
         },
         {
             "name": "mage-os/zend-exception",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-exception-3.0.0.zip",
-                "shasum": "b412f6fd66b797c02d697f1932b5f851a08c1a94"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-exception-3.1.0.zip",
+                "shasum": "25d1cf7fab8c57622d33f2dc1d88af9215f65832"
             },
             "require": {
                 "php": ">=7.0.0"
@@ -8502,14 +8501,14 @@
         },
         {
             "name": "mage-os/zend-loader",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-loader-3.0.0.zip",
-                "shasum": "91fa54ec0d1926e0606c8cd671ac94843f8ec275"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-loader-3.1.0.zip",
+                "shasum": "6e74437240fa2683fae9ac063c3da6df0209b216"
             },
             "require": {
-                "mage-os/zend-exception": "3.0.0",
+                "mage-os/zend-exception": "3.1.0",
                 "php": ">=7.0.0"
             },
             "replace": {
@@ -8540,14 +8539,14 @@
         },
         {
             "name": "mage-os/zend-log",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-log-3.0.0.zip",
-                "shasum": "151020d51dc339ff8d337a8230c666489347b2c0"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-log-3.1.0.zip",
+                "shasum": "231f45206703731382de598a9160e2276fbe7ec7"
             },
             "require": {
-                "mage-os/zend-exception": "3.0.0",
+                "mage-os/zend-exception": "3.1.0",
                 "php": ">=7.0.0"
             },
             "replace": {
@@ -8578,15 +8577,15 @@
         },
         {
             "name": "mage-os/zend-memory",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-memory-3.0.0.zip",
-                "shasum": "ef034ff92189b80e3d7fe6c38c76770fc1e1c7cb"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-memory-3.1.0.zip",
+                "shasum": "e5be3ec91fe75a9c9808f1cfcb8b074da0d0fca2"
             },
             "require": {
-                "mage-os/zend-cache": "3.0.0",
-                "mage-os/zend-exception": "3.0.0",
+                "mage-os/zend-cache": "3.1.0",
+                "mage-os/zend-exception": "3.1.0",
                 "php": ">=7.0.0"
             },
             "replace": {
@@ -8617,20 +8616,20 @@
         },
         {
             "name": "mage-os/zend-pdf",
-            "version": "3.0.0",
+            "version": "3.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.mage-os.org/packages/mage-os/zend-pdf-3.0.0.zip",
-                "shasum": "e7c0dc46c8336593b909f2d4843789f43fa512ba"
+                "url": "https://repo.mage-os.org/packages/mage-os/zend-pdf-3.1.0.zip",
+                "shasum": "c6deed8852c737718d2120f28f05b79189fab9bc"
             },
             "require": {
                 "ext-ctype": "*",
                 "ext-gd": "*",
                 "ext-iconv": "*",
                 "ext-zlib": "*",
-                "mage-os/zend-exception": "3.0.0",
-                "mage-os/zend-log": "3.0.0",
-                "mage-os/zend-memory": "3.0.0",
+                "mage-os/zend-exception": "3.1.0",
+                "mage-os/zend-log": "3.1.0",
+                "mage-os/zend-memory": "3.1.0",
                 "php": ">=7.0.0"
             },
             "replace": {
@@ -10486,20 +10485,20 @@
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.9.2",
+            "version": "4.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "8429c78ca35a09f27565311b98101e2826affde0"
+                "reference": "1df15849d00943a67d677dc9cfd80795f038c9f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/8429c78ca35a09f27565311b98101e2826affde0",
-                "reference": "8429c78ca35a09f27565311b98101e2826affde0",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/1df15849d00943a67d677dc9cfd80795f038c9f8",
+                "reference": "1df15849d00943a67d677dc9cfd80795f038c9f8",
                 "shasum": ""
             },
             "require": {
-                "brick/math": "^0.8.16 || ^0.9 || ^0.10 || ^0.11 || ^0.12 || ^0.13 || ^0.14",
+                "brick/math": ">=0.8.16 <=0.18",
                 "php": "^8.0",
                 "ramsey/collection": "^1.2 || ^2.0"
             },
@@ -10558,9 +10557,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.9.2"
+                "source": "https://github.com/ramsey/uuid/tree/4.9.3"
             },
-            "time": "2025-12-14T04:43:48+00:00"
+            "time": "2026-06-18T03:57:49+00:00"
         },
         {
             "name": "react/promise",
@@ -10637,16 +10636,16 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "v9.3.0",
+            "version": "v9.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
-                "reference": "88dbd0f7f91abbfe4402d0a3071e9ff4d81ed949"
+                "reference": "fd3bf9fb173e0df649bc4e3e0d088a1b2417c08f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/88dbd0f7f91abbfe4402d0a3071e9ff4d81ed949",
-                "reference": "88dbd0f7f91abbfe4402d0a3071e9ff4d81ed949",
+                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/fd3bf9fb173e0df649bc4e3e0d088a1b2417c08f",
+                "reference": "fd3bf9fb173e0df649bc4e3e0d088a1b2417c08f",
                 "shasum": ""
             },
             "require": {
@@ -10657,15 +10656,15 @@
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "1.4.0",
                 "phpstan/extension-installer": "1.4.3",
-                "phpstan/phpstan": "1.12.32 || 2.1.32",
-                "phpstan/phpstan-phpunit": "1.4.2 || 2.0.8",
-                "phpstan/phpstan-strict-rules": "1.6.2 || 2.0.7",
+                "phpstan/phpstan": "1.12.33 || 2.2.2",
+                "phpstan/phpstan-phpunit": "1.4.2 || 2.0.16",
+                "phpstan/phpstan-strict-rules": "1.6.2 || 2.0.11",
                 "phpunit/phpunit": "8.5.52",
                 "rawr/phpunit-data-provider": "3.3.1",
-                "rector/rector": "1.2.10 || 2.2.8",
-                "rector/type-perfect": "1.0.0 || 2.1.0",
+                "rector/rector": "1.2.10 || 2.4.6",
+                "rector/type-perfect": "1.0.0 || 2.1.3",
                 "squizlabs/php_codesniffer": "4.0.1",
-                "thecodingmachine/phpstan-safe-rule": "1.2.0 || 1.4.1"
+                "thecodingmachine/phpstan-safe-rule": "1.2.0 || 1.4.3"
             },
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
@@ -10673,7 +10672,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "9.4.x-dev"
+                    "dev-main": "9.5.x-dev"
                 }
             },
             "autoload": {
@@ -10711,9 +10710,9 @@
             ],
             "support": {
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
-                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v9.3.0"
+                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v9.4.0"
             },
-            "time": "2026-03-03T17:31:43+00:00"
+            "time": "2026-06-18T15:10:53+00:00"
         },
         {
             "name": "seld/jsonlint",
@@ -14493,16 +14492,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.33.0",
+            "version": "v15.33.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "b45921716927250f9adeeb93539639f9d8ca9fee"
+                "reference": "e0f40ce40a527ee27413cceced4825aacbc7de5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/b45921716927250f9adeeb93539639f9d8ca9fee",
-                "reference": "b45921716927250f9adeeb93539639f9d8ca9fee",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/e0f40ce40a527ee27413cceced4825aacbc7de5b",
+                "reference": "e0f40ce40a527ee27413cceced4825aacbc7de5b",
                 "shasum": ""
             },
             "require": {
@@ -14515,7 +14514,7 @@
                 "amphp/http-server": "^2.1 || ^3",
                 "dms/phpunit-arraysubset-asserts": "dev-master",
                 "ergebnis/composer-normalize": "^2.28",
-                "friendsofphp/php-cs-fixer": "3.95.7",
+                "friendsofphp/php-cs-fixer": "3.95.8",
                 "mll-lab/php-cs-fixer-config": "5.13.0",
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
@@ -14557,7 +14556,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.33.0"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.33.1"
             },
             "funding": [
                 {
@@ -14569,7 +14568,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2026-06-14T13:24:11+00:00"
+            "time": "2026-06-17T06:05:59+00:00"
         },
         {
             "name": "wikimedia/less.php",
