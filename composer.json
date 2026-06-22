@@ -25,7 +25,7 @@
     "dg/bypass-finals": "^1.4",
     "friendsofphp/php-cs-fixer": "^3.22",
     "mage-os/magento-coding-standard": "3.0.0",
-    "mage-os/magento2-functional-testing-framework": "3.0.0",
+    "mage-os/magento2-functional-testing-framework": "3.1.0",
     "pdepend/pdepend": "^3@dev",
     "phpmd/phpmd": "^3@dev",
     "phpstan/phpstan": "^1.9",
